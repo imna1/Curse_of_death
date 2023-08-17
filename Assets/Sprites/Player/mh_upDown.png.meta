@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: ac714fe57c83e4b4c88c5d6c83f97507
+guid: 7f9890d199345834480646653c27bad8
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -128,7 +128,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: spikes_0
+      name: mh_upDown_0
       rect:
         serializedVersion: 2
         x: 0
@@ -136,20 +136,20 @@ TextureImporter:
         width: 32
         height: 32
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 7037df5605b2ebc46a8d552962c4b80e
-      internalID: -534167373
+      spriteID: fa5d86f799c0ea54a98513af7b8a9285
+      internalID: 1738183103
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: spikes_1
+      name: mh_upDown_1
       rect:
         serializedVersion: 2
         x: 32
@@ -157,56 +157,14 @@ TextureImporter:
         width: 32
         height: 32
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 987dae8ee5873bb42ac32185ee89ded0
-      internalID: 1914444231
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: spikes_2
-      rect:
-        serializedVersion: 2
-        x: 64
-        y: 0
-        width: 32
-        height: 32
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 3007ebdb3d55e984fa7f0fc5ac0a8981
-      internalID: 1096679301
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: spikes_3
-      rect:
-        serializedVersion: 2
-        x: 96
-        y: 0
-        width: 32
-        height: 32
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 1ae21d1fecba1934788c3d869f81e725
-      internalID: 1753889273
+      spriteID: 832062b8c7ff81842975c5cb100e0f3e
+      internalID: -1610862321
       vertices: []
       indices: 
       edges: []
@@ -222,10 +180,8 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      spikes_3: 1753889273
-      spikes_0: -534167373
-      spikes_1: 1914444231
-      spikes_2: 1096679301
+      mh_upDown_0: 1738183103
+      mh_upDown_1: -1610862321
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0

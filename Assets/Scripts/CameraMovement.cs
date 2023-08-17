@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class CameraMovement : MonoBehaviour
 {
+    public bool PlayerDied;
     [SerializeField] private Transform _player;
     [SerializeField] private float _damping;
     private Vector3 _offset;
@@ -17,7 +18,8 @@ public class CameraMovement : MonoBehaviour
     }
     void Update()
     {
-        _movePosition = _player.position - _offset;
+        if (!PlayerDied)
+            _movePosition = _player.position - _offset;
         transform.position = Vector3.SmoothDamp(transform.position, _movePosition, ref _velosity, _damping);
     }
 }

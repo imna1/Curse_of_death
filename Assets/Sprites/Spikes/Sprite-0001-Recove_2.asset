@@ -10,9 +10,9 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 13312, guid: 0000000000000000e000000000000000, type: 0}
-  m_Name: spikes_2
+  m_Name: Sprite-0001-Recove_2
   m_EditorClassIdentifier: 
-  m_Sprite: {fileID: 1096679301, guid: ac714fe57c83e4b4c88c5d6c83f97507, type: 3}
+  m_Sprite: {fileID: 411795928, guid: 3cc85e43da4cdc949870d50824b3d56a, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_Transform:
     e00: 1
